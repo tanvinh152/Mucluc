@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="#f5f5f5">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="170dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:text="Dự ánorem ipsum dolor sit amet, vitae tristique nisi. Sed congue metus eu augue poorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla neque. Fusce id enim elementum, fringilla erat vitae, dignissim erat. Pellentesque viverra molestie risus, in viverra ante suscipit id. In a tristique nisl. Maecenas vitae rhoncus mauris. Etiam mollis pellentesque libero et fringilla. Sed sit amet hendrerit odio, sit amet aliquet justo. Duis eget magna vel mi sollicitudin tempor. Nullam blandit quis magna eu sagittis. Maecenas vitae consequat nisi. Donec tempus posuere orci vel aliquam. Cras tellus eros, pretium ac mattis eu, congue a dui. Aenean scelerisque pretium consequat. Donec non tristique urna, vitae tristique nisi.Sed congue metus eu augue po "
+            android:textColor="#6C9CEE"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pin"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Dự ánorem ipsum dolor sit amet, vitae tristique nisi. Sed congue metus eu augue poorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut fringilla neque. Fusce id enim elementum, fringilla erat vitae, dignissim erat. Pellentesque viverra molestie risus, in viverra ante suscipit id. In a tristique nisl. Maecenas vitae rhoncus mauris. Etiam mollis pellentesque libero et fringilla. Sed sit amet hendrerit odio, sit amet aliquet justo. Duis eget magna vel mi sollicitudin tempor. Nullam blandit quis magna eu sagittis. Maecenas vitae consequat nisi. Donec tempus posuere orci vel aliquam. Cras tellus eros, pretium ac mattis eu, congue a dui. Aenean scelerisque pretium consequat. Donec non tristique urna, vitae tristique nisi.Sed congue metus eu augue po " />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:drawableLeft="@drawable/acreage"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Diện tích 22m2" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:drawableLeft="@drawable/time"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="1 giờ trước" />
+    </LinearLayout>
+</LinearLayout>
